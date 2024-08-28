@@ -1,0 +1,83 @@
+{
+  
+    "tabs" : [
+        {
+            "id": "NETWORK_TAB",
+            "name" : "NETWORK",
+            "tip" : "Node or Cell analysis",
+            "style" : "",
+            "tabItemCenterStyle" : "centerPanelBackground" 
+        },
+        {
+            "id": "TERMINAL_TAB",
+            "name" : "TERMINAL",
+            "tip" : "Terminal analysis",
+            "style" : "",
+            "tabItemCenterStyle" : "centerPanelBackground" 
+        },
+        {
+            "id": "SUBSCRIBER_TAB",
+            "name" : "SUBSCRIBER",
+            "tip" : "Subscriber analysis",
+            "style" : "",
+            "tabItemCenterStyle" : "centerPanelBackground" 
+        },
+        {
+            "id": "RANKINGS_TAB",
+            "name" : "RANKINGS",
+            "tip" : "Ranking summary",
+            "style" : "",
+            "tabItemCenterStyle" : "centerPanelBackground",
+            "defaultMenuItemId" : "" 
+        } 
+    ],
+    "grids" : [
+        {
+            "id": "RECUR_ERR_SUMMARY",
+            "title": "Failure Recurrences Summary ",
+            "autoexpand": "4",
+            "defaultSortCol": "1",
+            "defaultSortDir": "DESC",
+            "columns": [
+                {
+                    "header" : "Event Type",
+                    "width" : "130",
+                    "datatype" : "string" 
+                },
+                {
+                    "header" : "Cause Protocol Type",
+                    "width" : "165",
+                    "datatype" : "string",
+                    "isHidden" : "TRUE" 
+                }
+            ] 
+        },
+        {
+            "id": "KPI_BY_CC_FROM_APN",
+            "title": "KPI Analysis By Cause Code",
+            "autoexpand": "8",
+            "defaultSortCol": "13",
+            "defaultSortDir": "ASC",
+            "columns": [
+                {
+                    "header" : "RAT ID",
+                    "width" : "50",
+                    "datatype" : "string",
+                    "isHidden" : "TRUE" 
+                },
+                {
+                    "header" : "APN",
+                    "width" : "70",
+                    "datatype" : "string",
+                    "isSystem": "TRUE" 
+                },
+                {
+                    "header" : "SGSN-MME",
+                    "width" : "70",
+                    "datatype" : "string",
+                    "isSystem": "TRUE" 
+                }
+            ] 
+        }
+        ]  
+}
